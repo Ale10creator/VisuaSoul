@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>PixeleArte - Diseño Gráfico Creativo</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      background: #f4f4f4;
+      color: #333;
+    }
+    header {
+      background: #111;
+      color: #fff;
+      padding: 2rem 1rem;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+      letter-spacing: 1px;
+    }
+    header p {
+      font-size: 1.1rem;
+      margin-top: 0.5rem;
+    }
+    section {
+      padding: 2rem;
+      max-width: 800px;
+      margin: auto;
+    }
+    .card {
+      background: #fff;
+      padding: 1.5rem;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      margin-bottom: 2rem;
+    }
+    .card h2 {
+      color: #1e90ff;
+    }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background: #222;
+      color: #aaa;
+      font-size: 0.9rem;
+    }
+    .button {
+      display: inline-block;
+      background: #1e90ff;
+      color: white;
+      padding: 0.7rem 1.2rem;
+      border-radius: 8px;
+      text-decoration: none;
+      margin-top: 1rem;
+    }
+    .price {
+      font-size: 1.5rem;
+      color: #444;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>PixeleArte</h1>
+    <p>Diseño gráfico con identidad visual única</p>
+  </header>
+
+  <section>
+    <div class="card">
+      <h2>Sobre mí</h2>
+      <p>Soy diseñador gráfico con pasión por crear imágenes impactantes que conecten con las personas. Mi objetivo es ayudarte a destacar visualmente en tu proyecto o negocio.</p>
+    </div>
+
+    <div class="card">
+      <h2>Servicios</h2>
+      <ul>
+        <li>🔹 Logos desde <span class="price">$30</span></li>
+        <li>🔹 Portadas, flyers y posters desde <span class="price">$20</span></li>
+        <li>🔹 Branding visual completo</li>
+        <li>🔹 Diseño para redes sociales</li>
+      </ul>
+      <a href="mailto:tuemail@ejemplo.com" class="button">Contáctame</a>
+    </div>
+
+    <div class="card">
+      <h2>Portafolio</h2>
+      <p>Puedes pedirme ejemplos por correo o visitar mis redes sociales para ver trabajos anteriores.</p>
+      <a href="https://instagram.com/tuusuario" class="button" target="_blank">Ver en Instagram</a>
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2025 PixeleArte · Diseñado por Aless
+  </footer>
+
+</body>
+</html>
